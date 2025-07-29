@@ -1,7 +1,7 @@
 <p>user works!</p>
 <div>
-  <button>
-    <img />
-    <span>Name</span>
+  <button (click)="onSelectUser()">
+    <img [src]="imagePath" [alt]="name" />
+    <span>{{ name }}</span>
   </button>
 </div>
